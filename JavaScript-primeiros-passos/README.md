@@ -1,4 +1,4 @@
-1.Repetição de código
+1. Repetição de código
 
     Criando classes
     O que são atributos
@@ -6,8 +6,15 @@
     Operador new
 
     OBS: Se tivermos código que se repete porém não forma um contexto coeso, provavelmente teremos que criar duas classes, cada uma delimitando um contexto único que faça sentido.
+ 
+2. Adicionando comportamentos
+    O que aprendemos nessa aula:
 
-2.Adicionando comportamentos
+    Criação de métodos
+    Palavra chave this
+    Encapsulamento
+    Proposta de atributos privados
+    Return e early return
 
     OBS: 
     Função e método são termos sinônimos e que nós ajudam a criar um vocabulário mais rico dentro do nosso sistema:
@@ -25,3 +32,43 @@
 
         Atualmente no Js nenhum atributo ou método é realmente privado:
             Sim, o JS é uma linguagem de escopo aberto e por isso é possível visualizar qualquer atributo ou propriedade de nossa classe.
+
+3. Modularizando código
+
+    O que aprendemos nessa aula:
+
+        Package.json
+        Modules
+        import/export
+        Quais as vantagens de ter um código onde usamos classes e composição ao invés de tipos primitivos
+        Tipos de valor e tipos de referência
+        Alterando dinamicamente um objeto
+
+    OBS:  
+
+    Criamos módulos para compartilhar código entre os diferentes arquivos do meu sistema, ajudando na organização dele.
+
+        Isso, dentro do JS cada arquivo é considerado um módulo e podemos escolher o que queremos exportar ou não a partir dele.
+
+4. Acessando Atribultos privados
+
+    O que aprendemos nessa aula:
+
+        Diferenças entre null e undefined
+        Aprofundando nos conceitos de referências a um espaço de memória
+        Get e Set
+        Melhor encapsulamento da classe
+        Protegendo atributos sensíveis
+
+    OBS:
+
+    Usando assessores do tipo set podemos alterar a regra de como um atributo pode ou não ser modificado sem precisar alterar isso em diversos pontos do código
+
+        Excelente! Essa é a ideia mesmo, assim se qualquer regra de atribuição mudar só precisamos modificar um único lugar.
+
+    Usar assessores do tipo set é uma boa prática para garantirmos que a atribuição de propriedades está sempre segura
+
+        Sim! Chamamos essa ideia de proteger atributos de nossas classes de encapsulamento e devemos sempre manter o máximo de encapsulamento possível.  
+
+5. Construtores e estáticos
+    
