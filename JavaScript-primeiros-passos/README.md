@@ -71,4 +71,13 @@
         Sim! Chamamos essa ideia de proteger atributos de nossas classes de encapsulamento e devemos sempre manter o máximo de encapsulamento possível.  
 
 5. Construtores e estáticos
+
+    OBS:
+
+    Alternativa correta
+    Construtores são utilizados para inicializar os atributos.
+
+        Correta! A inicialização de atributos é a principal responsabilidade do construtor.
+    
+    
     
